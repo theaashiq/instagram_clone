@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+
+.login-container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Rubik', sans-serif
+}
+
+.login-block{
+    margin-top: 20px;
+    border: 1px solid #bfbfbf;
+    padding: 10px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-block img{
+    width: 170px;
+}
+
+.login-input-block input{
+    width: 240px;
+    height: 35px;
+    margin: 5px 0px;
+    padding: 0px 10px;
+    border: 1px solid #bfbfbf;
+    border-radius: 2px;
+    background-color: #f2f2f2;
+}
+
+.login-input-block-error input{
+    width: 240px;
+    height: 35px;
+    margin: 5px 0px;
+    padding: 0px 10px;
+    border: 1px solid red;
+    border-radius: 2px;
+    background-color: #f2f2f2;
+}
+
+.error-text{
+    color: red;
+    font-size: 12px;
+    width: 200px
+}
+
+.login-btn input:hover{
+    background-color: #005c99;
+}
+
+.login-btn input{
+    margin: 10px 0px;
+    background-color: #0095F6;
+    border:none; 
+    padding: 8px;
+    border-radius: 4px;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 14px;
+    width: 260px;
+}
+
+.login-input-block input:focus{
+    outline:none;
+}
+
+.login-divider::before, .login-divider::after{
+    content: '';
+    height: 1px;
+    width: 50px;
+    background-color: #bfbfbf;
+    display: block
+}
+
+.login-divider{
+    margin: 20px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    color: #8c8c8c;
+}
+
+.login-facebook p{
+    text-align: center;
+    color: #385185;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.forgot-password p{
+    margin: 20px 0px;
+    color: #385185;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.dont-have-account{
+    margin: 20px;
+    border: 1px solid #bfbfbf;
+    width: 320px;
+    text-align: center;
+    padding: 30px 0px;
+    color: #333333;
+}
+
+.dont-have-account span{
+    font-weight: bold;
+    color: #385185;
+    cursor: pointer;
+}

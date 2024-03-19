@@ -1,0 +1,73 @@
+.feed-container{
+  font-family: 'Open Sans', sans-serif;
+  margin: 50px 0px 0px 20px;
+  //border: 1px solid;   
+  width: 450px;
+}
+
+.post-block{
+  border-bottom: 1px solid #bfbfbf;  
+  width: 450px;
+  margin-top: 20px;
+}
+
+.feed-profile-details{
+  display: flex;
+  align-items: center;
+} 
+
+.caption-block p{
+  margin-bottom: 10px
+}
+
+.image-block img{
+  margin: 10px 0px;;
+  width: 450px;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.FavoriteOutlinedIcon{
+  color: red;
+}
+
+.feed-post-icons{
+  display: flex;
+}
+
+.section-3{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.section-4{
+  margin: 0px 0px 10px 5px;
+
+}
+
+.save-btn:hover, .FavoriteBorderOutlinedIcon:hover, .cmd-icon:hover, .share-icon:hover{
+  color: #4d4d4d;
+}
+
+.cmd-icon, .share-icon{
+  margin-left: 5px;
+}
+.feed-profile-username{
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.feed-post-content{
+  margin:10px;
+}
+
+.menu-btn{
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.section-1{
+  display: flex;
+  justify-content: space-between
+}

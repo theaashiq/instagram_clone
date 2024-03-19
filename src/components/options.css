@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&family=Rubik&display=swap');
+
+
+/* *{
+    color: #000000;
+} */
+.options-container{
+    position: fixed;
+    width: 220px;
+    border-right: 1px solid  #999999;
+    height: 100vh;
+    background: #ffffff;
+    font-family: 'Open Sans', sans-serif
+}
+
+.instaFontPoster{
+    width: 120px;
+    margin: 20px 0px 0px 20px;;
+}
+
+.list-items{
+  margin: 0px 20px;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 75%;
+}
+
+
+.items{
+    display: flex;
+    cursor: pointer;
+    font-size: 14px;
+    align-items: center;
+    width: 100%;
+    padding: 7px;
+    color: black;
+    border-radius: 5px;
+}
+
+.items:hover, .more-block:hover{
+    background-color: #e6e6e6;
+    font-weight: bold;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+}
+
+.icons-name{
+    margin-left: 15px;
+}
+
+header{
+    display: none;
+    background: #ffffff;
+}
+
+.instaIcon{
+    display: none;
+    margin-left:20px;
+}
+
+.more-block{
+    margin: 18px 5px 0px 20px;
+    padding: 6px;
+    border-radius: 5px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+}
+
+@media screen and (max-width: 800px){
+    .icons-name{
+        display: none;
+        background-color: red;
+    }
+
+    .instaIcon{
+        display: block;
+        color: #EE2A7B;
+    }
+
+    .instaFontPoster{
+        display: none;
+    }
+
+    .options-container{
+        padding-top: 20px;
+        width:80px;
+    }
+
+    .items, .more-block{
+       justify-content: center;
+       padding: 3px;
+    }
+
+    .more-block{
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 500px){
+
+    .options-container{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 60px;
+        padding: 0px;
+        position: fixed;
+        z-index: 100;
+        bottom: 0px;
+        border-top: 1px solid #999999;
+    }
+         
+    .options-instaFontPoster{
+        display: none;
+    }
+
+    .items{
+        margin:0px;
+        padding: 3px;
+        height: 40px;
+        width: 40px;
+        border-radius: 20px
+    }
+
+    .icons{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .list-items{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .more-block{
+        display: none;
+    }
+
+    .sm-items{
+        display: none;
+    }
+
+    header{
+        display: block;
+        position: fixed;
+        z-index: 100;
+        top:0px;
+        height: 80px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border: 1px solid #999999; 
+    }
+
+    .header-instaFontPoster img{
+        width: 110px;
+        height: 60px;
+    }
+
+    .header-list-items{
+        display: flex;
+    }
+
+    .search-block input{
+        height: 40px;
+        border: none;
+        font-size: 16px;
+        background-color: #e9e9e9;
+        margin-left: 5px;
+    }
+
+    .search-block input:focus{
+        width-left: 0px;
+        outline: none;
+    }
+
+    .search-block{
+        border-radius: 8px;
+        padding: 3px 5px; 
+        display: flex;
+        width: 220px;
+        background-color: #e9e9e9;
+        align-items: center;
+    }
+
+    .close-icon{
+        background-color: #a6a6a6;
+        color: #ffffff;
+        display: flex;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    .header-notification{
+        display: flex;
+        margin-left: 20px;
+        align-items: center;
+    }
+}

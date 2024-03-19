@@ -1,0 +1,145 @@
+*:active{
+    color: black;
+}
+
+.profile-container{
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.my-profile{
+    margin:100px 0px 0px 500px;
+    width: 450px;
+}
+
+.my-profile-block{
+    display: flex;
+
+}
+
+.my-profile-name{
+    margin: 10px 0px;
+}
+
+.my-profile-details{
+    margin-left: 30px;
+}
+
+.edit-profile-btn{
+    margin: 20px 0px 0px 0px;
+    color: #000000;
+    background-color: #efefef;
+    width: 100px;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.new-post-btn{
+    cursor: pointer;
+    margin: 20px 0px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.post-input{
+    position: absolute;
+    top: 0px;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    background: rgb(77, 77, 77, 0.8);
+    place-items: center;
+}
+
+.post-input-block{
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #ffffff;
+}
+
+.post-btns{
+    display: flex;
+    border: none;
+    margin: 10px 0px;
+    font-family: 'Open Sans', sans-serif;
+    justify-content: space-between;
+}
+
+.image-url-block {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.image-url-block input{
+    font-family: 'Open Sans', sans-serif;
+    width: 400px;
+    margin-bottom: 20px;
+    padding: 5px 0px 5px 10px;
+    font-size: 20px;
+    outline: none;
+    border: 1px solid #4d4d4d;
+    border-color:  ;
+    border-radius: 10px;
+}
+
+.text-block{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.back-btn{
+  background-color: #efefef; 
+  padding: 10px 20px;  
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.post-btns input{
+    border: none;
+}
+
+.post-input p {
+    font-family: 'Open Sans', sans-serif;
+    color: red;
+}
+textarea{
+    width: 400px;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+textarea:focus, .image-url-block input:focus{
+    outline: none;
+    border-color: #0095f6;
+}
+
+.post-btn{
+    background-color: #0095f6; 
+    padding: 10px 20px;  
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+@media screen and (max-width: 1000px){
+    .my-profile{
+        margin:30px 0px 0px 300px;
+    }
+} 
+
+@media screen and (max-width: 800px){
+    .my-profile{
+        margin:30px 0px 0px 100px;
+    }
+} 
+
+
+@media screen and (max-width: 500px){
+    .my-profile{
+        margin:130px 0px 0px 20px;
+    }
+    
+}
